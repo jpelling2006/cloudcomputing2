@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home | Cloud Computing</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="styles/morph.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+        <link rel="apple-touch-icon" sizes="180x180" href="media/favicons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="media/favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="media/favicons/favicon-16x16.png">
+        <link rel="manifest" href="media/favicons/site.webmanifest">
+    </head>
+    <body>
+        <!-- the navbar -->
+        <nav class="navbar navbar-expand-lg bg-primary sticky-top" data-bs-theme="dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="home.html"><img
+                    src="media/logo/twemojicloud.png" alt="" width="30" height="30"></a>
+                <a class="navbar-brand" href="home.html">Cloud Computing</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarColor01">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="home.html">Home
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="types.html" role="button" aria-haspopup="true" aria-expanded="false">Types</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="types.html">Types</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="onpremise.html">On Premises</a>
+                                <a class="dropdown-item" href="iaas.html">IaaS</a>
+                                <a class="dropdown-item" href="paas.html">PaaS</a>
+                                <a class="dropdown-item" href="saas.html">SaaS</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact Us</a>
+                        </li>
+                    </ul>
+              </div>
+            </div>
+        </nav><br>
+
+        <!-- Main body -->
+        <div class="container">
+
+            <!-- Breadcrumb -->
+            <div class="row">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item active">Home</li>
+                </ol>
+            </div><br>
+
+            <!-- Intro section -->
+            <div class="row">
+                <div class="col-sm-8">
+                    <h1>Welcome to Cloud Computing</h1>
+                    <p class="lead">Welcome to our informational site dedicated to cloud computing!</p>
+                    <p>
+                        Whether you're a seasoned IT professional looking to stay updated with the latest trends or someone new to the world of cloud technology seeking to understand its fundamental concepts, you've come to the right place. Our goal is to demystify the complexities of cloud computing and provide you with comprehensive insights into its various aspects, including the benefits, types of cloud services, security considerations, and real-world applications. We believe that knowledge is power, and in today's digital age, understanding cloud computing is essential for businesses and individuals alike. So, sit back, explore our resources, and embark on a journey to unlock the potential of the cloud. <b>Welcome to the future of computing!</b>
+                    </p>
+                </div>
+                <div class="col-sm-4">
+                    <img src="media/home/ecloud.jpg" class="d-block user-select-none" width="100%" style="border-radius: 10px;">
+                </div>
+            </div>
+
+            <br><hr><br> <!-- divider -->
+
+            <!-- News section -->
+            <div class="row">
+                <!-- Article One -->
+                <div class="col-sm-4">
+                    <div class="card border-primary mb-3">
+                        <div class="card-header">The Register</div>
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                AWS previews AppFabric for productivity – pitched as AI-powered glue between apps<br>
+                                <small class="text-body-secondary">Park user data in Amazon's servers for ML-generated insights and actions – yea or nay for you?</small>
+                            </h5><br>
+                            <h6 class="card-subtitle text-muted">By Tim Anderson</h6><br>
+                            <p class="card-text">
+                                AWS has previewed AppFabric for productivity, which promises to use generative AI to "provide personalized insights and recommended actions generated from context across a user's other applications."
+                            </p>
+                            <p class="card-text">
+                                AWS introduced AppFabric in June this year – but what is it? The <a class="card-link" href="https://aws.amazon.com/blogs/aws/new-aws-appfabric-improves-application-observability-for-saas-applications/">initial pitch</a> was that it was "a fully managed service that aggregates and normalizes security data across SaaS applications to improve observability and help reduce operational effort."
+                            </p>
+                            <p class="card-text">
+                                The rationale is that users typically run a mix of applications from various vendors, such as Salesforce, Slack, Zoom, Microsoft 365 and/or Google Workspace, Atlassian Jira, and so on. Each application stores logs in its own format, making it hard to aggregate them to identify security incidents. <a class="card-link" href="https://aws.amazon.com/appfabric/">AppFabric</a> will ingest these logs and convert them to a common schema, specifically the Open Cybersecurity Schema Framework, so they can be analyzed together.
+                            </p>
+                        </div>
+                        <div class="card-body">
+                            <a href="https://www.theregister.com/2023/11/28/aws_appfabric/" class="card-link">Link to Article</a>
+                        </div>
+                        <div class="card-footer text-muted">
+                            28/11/23
+                        </div>
+                    </div>
+                </div><br>
+
+                <!-- Article Two -->
+                <div class="col-sm-4">
+                    <div class="card border-primary mb-3">
+                        <div class="card-header">TechCrunch</div>
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                AWS brings Amazon One palm-scanning authentication to the enterprise<br>
+                                <small class="text-body-secondary">It comes 3 years after Amazon debuted its 'handy' authentication service for consumers</small>
+                            </h5>
+                        </div>
+                        <div class="card-body">
+                            <img src="media/home/news/2.webp" class="d-block user-select-none" width="100%" style="border-radius: 10px;">
+                        </div>
+                        <div class="card-body">
+                            <h6 class="card-subtitle text-muted">By Paul Sawers</h6><br>
+                            <p class="card-text">
+                                Amazon’s cloud computing subsidiary AWS (Amazon Web Services) has <a class="card-link" href="https://www.businesswire.com/news/home/20231127189219/en/AWS-Introduces-Amazon-One-Enterprise/">lifted the lid</a> on a new palm-scanning identity service that allows companies to authenticate people when entering physical premises.
+                            </p>
+                            <p class="card-text">
+                                The announcement comes as part of AWS’s annual <a class="card-link" href="https://techcrunch.com/tag/aws-reinvent-2023/">Re:Invent conference</a>, which is running in Las Vegas for the duration of this week.
+                            </p>
+                            <p class="card-text">
+                                <a class="card-link" href="https://aws.amazon.com/one-enterprise/">Amazon One Enterprise</a>, as the new service is called, builds on the company’s existing Amazon One offering which itdebuted back in 2020 to enable biometric payments in Amazon’s own surveillance-powered cashierless stores. Visitors to Amazon Go stores can associate their payment card with their palm-print, allowing them to enter the store and complete their transaction by hovering their hand over a scanner.
+                            </p>
+                        </div>
+                        <div class="card-body">
+                            <a href="https://techcrunch.com/2023/11/28/aws-brings-amazon-one-palm-scanning-authentication-technology-to-the-enterprise/?guccounter=1&guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce_referrer_sig=AQAAAIqhDEGA0n6Bo6bRsb5mmMnrlgyUxmeb9PflsU-mzSZiFi5eJgfFht7dMnWiHysqjJL3t5Zwnn-bV0q-fxdXW2wWdRMO7PJKJMb3x8kaOIzzFnhVWgiHuGy7KX6_c5ImqeafMNAaTeo_hDf2nTwl4d6t5W_hpmf_8hkmAucjFQH0" class="card-link">Link to Article</a>
+                        </div>
+                        <div class="card-footer text-muted">
+                            28/11/23
+                        </div>
+                    </div>
+                </div><br>
+
+                <!-- Article Three -->
+                <div class="col-sm-4">
+                    <div class="card border-primary mb-3">
+                        <div class="card-header">Blockworks</div>
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Google Cloud confirms participation in EigenLayer testnet<br>
+                                <small class="text-body-secondary">Google Cloud joined more than 65 other operators in the group as the restaking protocol eyes a mainnet deployment for node operators in the first half of 2024</small>
+                            </h5>
+                        </div>
+                        <div class="card-body">
+                            <img src="media/home/news/3.webp" class="d-block user-select-none" width="100%" style="border-radius: 10px;">
+                        </div>
+                        <div class="card-body">
+                            <h6 class="card-subtitle text-muted">By Jack Kubinec</h6><br>
+                            <p class="card-text">
+                                Google Cloud has joined EigenLayer’s “Operator Working Group” alongside more than 65 other operators and solo stakers, a representative for EigenLabs, the developer behind EigenLayer, told Blockworks. 
+                            </p>
+                            <p class="card-text">
+                                Google Cloud Web3 now <a class="card-link" href="https://goerli.eigenlayer.xyz/operator/0x8a2e63fb50c6e4ac207d17712fc18c8813b1079d/">appears</a> as a node operator on the Goerli testnet for EigenLayer — a restaking protocol that lets ether (ETH) be staked on multiple platforms at once. Google Cloud confirmed the cloud computing service’s participation in EigenLayer’s testnet in an email to Blockworks.
+                            </p>
+                            <p class="card-text">
+                                Google Cloud declined to comment on whether it has plans to move to <a class="card-link" href="https://blockworks.co/tag/eigenlayer">EigenLayer</a>'s mainnet or if the protocol would be added to Google Cloud’s Blockchain Node Engine.
+                            </p>
+                        </div>
+                        <div class="card-body">
+                            <a href="https://blockworks.co/news/google-cloud-participates-eigenlayer-testnet" class="card-link">Link to Article</a>
+                        </div>
+                        <div class="card-footer text-muted">
+                            28/11/23
+                        </div>
+                    </div>
+                </div><br>
+            </div>
+
+            <br><hr><br> <!-- divider -->
+
+            <!-- Quotes -->
+            <div class="row">
+                <h1 style="text-align: center;">Some Cloud Computing Quotes</h1>
+            </div><br>
+
+            <!-- Quote 1 -->
+            <div class="row">
+                <div class="col-sm-6">
+                    <figure>
+                        <blockquote class="blockquote">
+                            <p class="mb-0">In the underworld, reality itself has elastic properties and is capable of being stretched into different definitions of the truth.</p>
+                        </blockquote>
+                        <figcaption class="blockquote-footer">
+                            Roderick Vincent, <cite title="The Cause (2014)">The Cause</cite>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div><br>
+
+            <!-- Quote 1 -->
+            <div class="row">
+                <div class="col-sm-3"></div>
+                <div class="col-sm-6">
+                    <figure>
+                        <blockquote class="blockquote">
+                            <p class="mb-0">Cloud is the digital wonderland of Internet of Things, powered by Artificial Intelligence and Big Data</p>
+                        </blockquote>
+                        <figcaption class="blockquote-footer">
+                            Enamul Haque, <cite title="Digital Transformation Through Cloud Computing: Developing a sustainable business strategy to eschew extinction (2020)">Digital Transformation Through Cloud Computing</cite>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-sm-3"></div>
+            </div><br>
+
+            <!-- Quote 3 -->
+            <div class="row">
+                <div class="col-sm-6"></div>
+                <div class="col-sm-6">
+                    <figure>
+                        <blockquote class="blockquote">
+                            <p class="mb-0">The connectivity of the cloud and the prevalence of tablets and smartphones have eroded the traditional online/offline divide. Within a short time we will most probably stop thinking of it as 'online.' We will simply be connected, all the time, everywhere, and the online world will be notable only by its absence when that connection breaks.</p>
+                        </blockquote>
+                        <figcaption class="blockquote-footer">
+                            David Amerland, <cite title="Google Semantic Search: Search Engine Optimization (SEO) Techniques That Get Your Company More Traffic (2013)">Google Semantic Search</cite>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div><br>
+
+            <!-- Footer -->
+            <footer>
+                <p class="foot" style="text-align: center;"><br><br>© Cloud Computing Site 2023<br><br></p>
+            </footer>
+            
+        </div>
+    </body>
+</html>

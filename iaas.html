@@ -1,49 +1,191 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Infrastructure as a Service</title>
-        <link rel="stylesheet" href="C:\Users\22001089\Documents\cloudcomputingsite\cloudcomputing\styles\main.css">
+        <title>IaaS | Cloud Computing</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="styles/morph.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+        <link rel="apple-touch-icon" sizes="180x180" href="media/favicons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="media/favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="media/favicons/favicon-16x16.png">
+        <link rel="manifest" href="media/favicons/site.webmanifest">
     </head>
-    <header>
-        <br>
-        <h1>Types of Cloud Computing</h1>
-        <ul class="topnav"> <!--top nav bar-->
-            <li><a href="home.html">Home</a></li>
-            <li><a class="active" href="types.html">Types</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </header>
     <body>
-        <ul class="sidenav"> <!--side nav bar-->
-            <li><a href="onpremise.html">On Premises</a></li>
-            <li><a class="active" href="iaas.html">IaaS</a></li>
-            <li><a href="paas.html">PaaS</a></li>
-            <li><a href="saas.html">SaaS</a></li>
-        </ul>
-        <div class="sidenav">
-            <h2>Infrastructure as a Service</h2>
-            <p>
-                Infrastructure as a Service (IaaS) is a cloud computing model that simplifies IT 
-                infrastructure management. With IaaS, you don't need to buy or maintain physical servers 
-                and networking equipment. Instead, you rent these resources from a cloud provider over 
-                the internet. It's like leasing a fully equipped data center without the hassle of 
-                ownership.<br><br>
-                
-                IaaS offers several advantages. It allows for flexibility and scalability, as you 
-                can easily scale your resources up or down based on your needs. You also benefit 
-                from cost savings, as you only pay for what you use. Plus, IaaS providers handle 
-                hardware maintenance and security, reducing your administrative burden.<br><br>
-                
-                In a nutshell, IaaS is a cloud service where you rent infrastructure like servers
-                and networks from a provider, making it a cost-effective and hassle-free solution
-                for businesses.
-            </p>
-            <br>
-            <p>Click the button to print the current page</p>
-            <button onclick="window.print()">Print this page</button>
+        <!-- the navbar -->
+        <nav class="navbar navbar-expand-lg bg-primary sticky-top" data-bs-theme="dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="home.html"><img
+                    src="media/logo/twemojicloud.png" alt="" width="30" height="30"></a>
+                <a class="navbar-brand" href="home.html">Cloud Computing</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarColor01">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="home.html">Home
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="overview.html">Overview</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle active" data-bs-toggle="dropdown" href="types.html" role="button" aria-haspopup="true" aria-expanded="false">Types</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="types.html">Types</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="onpremise.html">On premises</a>
+                                <a class="dropdown-item active" href="iaas.html">IaaS</a>
+                                <a class="dropdown-item" href="paas.html">PaaS</a>
+                                <a class="dropdown-item" href="saas.html">SaaS</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact us</a>
+                        </li>
+                    </ul>
+              </div>
+            </div>
+        </nav><br>
+
+        <!-- Main Body -->
+        <div class="container">
+
+            <div class="row">
+
+                <!-- Secondary Navbar -->
+                <div class="col-sm-3">
+                    <ul class="nav nav-pills flex-column">
+                        <li class="nav-item">
+                          <a class="nav-link" href="onpremise.html">On Premises</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="iaas.html">IaaS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="paas.html">PaaS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="saas.html">SaaS</a>
+                        </li>
+                      </ul>
+                </div><br>
+
+                <div class="col-sm-1"></div><br>
+
+                <!-- Informative Section -->
+                <div class="col-sm-8">
+
+                    <!-- Intro Section -->
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h1>IaaS</h1>
+                            <p>
+                                Infrastructure as a Service (IaaS) represents a paradigm shift in how businesses manage their IT resources. At the core of this transformation lies IaaS networking, a crucial component that enables the seamless functioning of cloud-based infrastructure. In this dynamic landscape, networking in IaaS plays a pivotal role in facilitating communication, ensuring security, and optimizing the overall performance of cloud-based solutions.
+                            </p>
+                        </div>
+                    </div><br>
+
+                    <!-- Section 1 -->
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h2>Key Components of IaaS Networking</h2><br>
+
+                            <!-- Accordion -->
+                            <div class="accordion" id="accordionExample">
+
+                                <!-- Paragraph 1 -->
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                            Virtual Networks
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample" style="">
+                                        <div class="accordion-body">
+                                            <p>
+                                                One of the fundamental aspects of IaaS networking is the creation of virtual networks. These networks operate as software-defined entities, decoupled from physical hardware. Virtual networks provide the agility and flexibility necessary for dynamic resource allocation, allowing businesses to scale their infrastructure up or down based on demand.
+                                            </p><br>
+                                            <img src="media/types/iaas/virtualNetworks.jpg" class="d-block user-select-none" width="100%" style="border-radius: 10px;"><br>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Paragraph 2 -->
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingTwo">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                            Subnetting and Addressing
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample" style="">
+                                        <div class="accordion-body">
+                                            <p>
+                                                Subnetting within IaaS networks involves dividing a larger network into smaller, more manageable segments. This not only aids in efficient resource utilization but also enhances security by isolating different components of the infrastructure. IP addressing within these subnets ensures that data packets are correctly routed, contributing to a well-organized and secure network architecture.
+                                            </p><br>
+                                            <img src="media/types/iaas/addressing.jpg" class="d-block user-select-none" width="100%" style="border-radius: 10px;"><br>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Paragraph 3 -->
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingThree">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                            Load Balancing
+                                        </button>
+                                    </h2>
+                                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <p>
+                                                Load balancing is an essential feature in IaaS networking that distributes incoming network traffic across multiple servers or resources. This ensures optimal utilization of resources, prevents bottlenecks, and enhances the overall performance and reliability of applications hosted in the cloud. Load balancing mechanisms are designed to dynamically adapt to changing workloads, providing a seamless user experience.
+                                            </p>
+                                            <img src="media/types/iaas/load.jpg" class="d-block user-select-none" width="100%" style="border-radius: 10px;"><br>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><br>
+
+                    <!-- Section 2 -->
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h2>Security in IaaS Networking</h2>
+                        </div>
+                    </div><br>
+
+                    <!-- Content -->
+                    <div class="row">
+
+                        <!-- Advantages -->
+                        <div class="col-sm-6">
+                            <h3>
+                                Network Security Groups
+                                <small class="text-body-secondary">(NSGs)</small>
+                            </h3>
+                            <p>
+                                IaaS networking prioritizes security, and Network Security Groups (NSGs) play a crucial role in this regard. NSGs allow the definition of inbound and outbound traffic rules, helping control the flow of data and protecting virtual machines from unauthorized access. By enforcing security policies at the network level, NSGs contribute to a robust and secure cloud infrastructure.
+                            </p><br>
+                            <img src="media/types/iaas/nsg.jpg" class="d-block user-select-none" width="100%" style="border-radius: 10px;"><br>
+                        </div>
+
+                        <!-- Diadvantages -->
+                        <div class="col-sm-6">
+                            <h3>Virtual Private Networks (VPNs) and ExpressRoute</h3>
+                            <p>
+                                To establish secure connections between on-premises infrastructure and the cloud, IaaS networking often incorporates VPNs and ExpressRoute. These technologies ensure that data traversing the network remains encrypted, providing a secure channel for communication. VPNs are suitable for smaller workloads, while ExpressRoute offers a dedicated, high-throughput connection for larger enterprises.
+                            </p><br>
+                            <img src="media/types/iaas/petter-lagson-NEtFkKuo7VY-unsplash.jpg" class="d-block user-select-none" width="100%" style="border-radius: 10px;">
+                        </div>
+                    </div><br>
+                </div>
+            </div>
+
+            <!-- Footer -->
+            <footer>
+                <p class="foot" style="text-align: center;"><br><br>© Cloud Computing Site 2023<br><br></p>
+            </footer>
         </div>
     </body>
-    <footer>
-        <p class="foot"><br><br>© Cloud Computing Site 2023<br><br></p>
-    </footer>
 </html>

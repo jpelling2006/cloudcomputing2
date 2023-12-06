@@ -4,5 +4,5 @@
  This website is hosted [here](http://cloudcompute.atwebpages.com/home.html).
 
  > [!WARNING]
- > If your browser forces you to go to https:// instead of http://, please remove the "s"
+ > If your browser forces you to go to https:// instead of http://, please remove the "s"<br>
  > https:// hosting is expensive!
